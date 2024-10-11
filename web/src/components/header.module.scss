@@ -1,0 +1,23 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: var(--spacing-sitepadding);
+}
+
+.logo {
+  text-align: left;
+}
+
+.title {
+  text-align: center;
+}
+
+.menu {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  text-align: right;
+
+  ul {
+    list-style: none;
+  }
+}

@@ -1,0 +1,14 @@
+.personSection {
+  text-align: center;
+  margin-top: 6.66rem;
+  border-top: var(--border);
+  padding-top: var(--spacing-sitepadding);
+}
+
+.personList {
+  padding: var(--spacing-sitepadding) 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 666px;
+  margin: 0 auto;
+}

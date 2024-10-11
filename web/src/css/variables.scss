@@ -1,0 +1,29 @@
+:root {
+  // datadyr fonts
+  --font-main: monospace;
+
+  // font sizes
+  --font-size-h1: 2rem;
+  --font-size-h2: 1.2rem;
+  --font-size-body: 1rem;
+
+  // datadyr color palette
+  --color-black: #080808;
+  --color-white: #eee;
+  --color-pink: hotpink;
+  --color-lime: lime;
+  --color-yellow: yellow;
+  --color-turquoise: turquoise;
+  --color-cyan: cyan;
+
+  // colors in use
+  --color-background: var(--color-black);
+  --color-text: var(--color-white);
+  --color-hover: var(--color-pink);
+
+  // spacing
+  --spacing-sitepadding: 2rem;
+
+  // border
+  --border: 1px dashed var(--color-white);
+}
