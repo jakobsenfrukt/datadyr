@@ -1,14 +1,16 @@
 .personSection {
   text-align: center;
-  margin-top: 6.66rem;
-  border-top: var(--border);
-  padding-top: var(--spacing-sitepadding);
+  margin: var(--spacing-sitepadding) 0;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-sitepadding);
 }
 
 .personList {
   padding: var(--spacing-sitepadding) 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 666px;
+  gap: 4.20rem;
+  max-width: 640px;
   margin: 0 auto;
 }

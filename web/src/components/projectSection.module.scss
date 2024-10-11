@@ -1,0 +1,22 @@
+.projectSection {
+  text-align: center;
+  margin: var(--spacing-sitepadding) 0;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-sitepadding);
+}
+
+.projectList {
+  list-style: none;
+  margin-top: var(--spacing-sitepadding);
+  padding: var(--spacing-sitepadding) 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-sitepadding);
+
+  li {
+    background: #121212;
+    padding: var(--spacing-sitepadding);
+    border-radius: 3px;
+  }
+}

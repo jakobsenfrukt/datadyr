@@ -16,15 +16,13 @@ body {
 }
 
 main {
-  padding: var(--spacing-sitepadding);
+  padding: 0 var(--spacing-sitepadding);
   min-height: 80vh;
 }
 
 a {
   color: inherit;
-  text-underline-offset: .4em;
-  text-decoration-thickness: 1px;
-  text-decoration-style: dashed;
+  text-decoration: none;
 
   &:hover {
     color: var(--color-hover);

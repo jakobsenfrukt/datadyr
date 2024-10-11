@@ -14,16 +14,18 @@
   --color-lime: lime;
   --color-yellow: yellow;
   --color-turquoise: turquoise;
-  --color-cyan: cyan;
+  --color-purple: rebeccapurple;
 
   // colors in use
   --color-background: var(--color-black);
   --color-text: var(--color-white);
+  --color-text-secondary: rgba(238, 238, 238, 0.5);
   --color-hover: var(--color-pink);
 
   // spacing
   --spacing-sitepadding: 2rem;
 
   // border
-  --border: 1px dashed var(--color-white);
+  --border: 1px dashed rgba(238, 238, 238, 0.24);
+  --border-radius: 6px;
 }

@@ -1,0 +1,21 @@
+.infoSection {
+  text-align: center;
+  margin: var(--spacing-sitepadding) 0;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-sitepadding);
+}
+
+.serviceList {
+  list-style: none;
+  padding: var(--spacing-sitepadding) 0 1rem;
+  display: flex;
+  justify-content: center;
+  gap: .6rem;
+
+  li {
+    background: #121212;
+    padding: .6rem 1rem;
+    border-radius: 3px;
+  }
+}

@@ -3,11 +3,14 @@
 }
 
 .name {
-
+  margin-bottom: 0;
+  letter-spacing: normal;
+  text-transform: none;
 }
 
 .email {
-
+  margin-bottom: .6rem;
+  color: var(--color-purple);
 }
 
 .avatar {
@@ -20,5 +23,6 @@
 }
 
 .description {
-
+  color: var(--color-text-secondary);
+  font-size: .8rem;
 }

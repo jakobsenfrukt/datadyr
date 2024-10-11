@@ -1,8 +1,35 @@
 .footer {
-  padding: var(--spacing-sitepadding);
+  padding: 0 var(--spacing-sitepadding) var(--spacing-sitepadding);
 }
 
 .contact {
+  display: flex;
+  justify-content: space-between;
+
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-sitepadding);
+
+  a {
+    color: var(--color-lime);
+    width: 100%;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: .6rem 1rem;
+    text-align: center;
+
+    &:hover {
+      border-color: currentColor;
+    }
+
+    &:nth-child(2) {
+      color: var(--color-pink);
+    }
+    &:nth-child(3) {
+      color: var(--color-turquoise);
+    }
+    &:nth-child(4) {
+      color: var(--color-yellow);
+    }
+  }
 }

@@ -12,14 +12,14 @@ export default function PersonList() {
           email="jonas@datadyr.no"
           avatarUrl="/avatars/jonas.png"
           avatarAlt="Pikselavatar av Jonas"
-          description="Liker datamaskiner."
+          description="Liker datamaskiner. Både frontend og backend, integrasjoner og migrasjoner. Blir glad for nye tekniske utfordringer."
         />
         <Person
           name="Elise Jakobsen"
           email="elise@datadyr.no"
           avatarUrl="/avatars/elise.png"
           avatarAlt="Pikselavatar av Elise"
-          description="Liker design og litt datamaskiner."
+          description="Liker datamaskiner og design og gjerne kombo. Snakker både utviklerne og designernes språk og har øye for designdetaljene."
         />
       </div>
     </section>
